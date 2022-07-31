@@ -203,6 +203,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "silk_boots_recipe"
+    },
+    {
+      "name": "PeculiarPainting",
+      "type": "painting",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peculiar_painting"
     }
   ],
   "variable_elements": [],
