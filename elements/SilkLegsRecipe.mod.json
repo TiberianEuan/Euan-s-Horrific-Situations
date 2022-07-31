@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.WOOL#0"
+      },
+      {
+        "value": "Items.SLIME_BALL"
+      },
+      {
+        "value": "Blocks.WOOL#0"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Blocks.WOOL#0"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOOL#0"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SilkBinding.legs"
+    },
+    "name": "silk_legs_recipe",
+    "namespace": "mod"
+  }
+}

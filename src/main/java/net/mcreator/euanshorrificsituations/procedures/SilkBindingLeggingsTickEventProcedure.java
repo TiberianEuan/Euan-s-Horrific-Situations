@@ -11,6 +11,5 @@ public class SilkBindingLeggingsTickEventProcedure {
 			return;
 		if (entity instanceof LivingEntity _entity)
 			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 2, 255, (true), (true)));
-		BindingCurseForThoseWhoCantFreeThemselvesProcedure.execute(entity);
 	}
 }

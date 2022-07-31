@@ -13,6 +13,5 @@ public class SilkBindingBodyTickEventProcedure {
 			_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 2, 50, (true), (true)));
 		if (entity instanceof LivingEntity _entity)
 			_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 2, 50, (true), (true)));
-		BindingCurseForThoseWhoCantFreeThemselvesProcedure.execute(entity);
 	}
 }

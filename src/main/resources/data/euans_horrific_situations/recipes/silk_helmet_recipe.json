@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:slime_ball"
+    },
+    "1": {
+      "item": "minecraft:white_wool"
+    },
+    "2": {
+      "item": "minecraft:slime_ball"
+    },
+    "3": {
+      "item": "minecraft:white_wool"
+    },
+    "4": {
+      "item": "minecraft:string"
+    },
+    "5": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "euans_horrific_situations:silk_binding_helmet",
+    "count": 1
+  }
+}

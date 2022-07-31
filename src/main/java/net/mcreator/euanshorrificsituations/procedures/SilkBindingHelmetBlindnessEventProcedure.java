@@ -11,6 +11,5 @@ public class SilkBindingHelmetBlindnessEventProcedure {
 			return;
 		if (entity instanceof LivingEntity _entity)
 			_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 2, 50, (true), (true)));
-		BindingCurseForThoseWhoCantFreeThemselvesProcedure.execute(entity);
 	}
 }

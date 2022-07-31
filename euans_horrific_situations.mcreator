@@ -71,22 +71,6 @@
       }
     },
     {
-      "name": "BindingCurseForThoseWhoCantFreeThemselves",
-      "type": "procedure",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "binding_curse_for_those_who_cant_free_themselves",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "WebberTransparentWhenTrue",
       "type": "procedure",
       "sortid": 6,
@@ -187,6 +171,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "carnivorous_plant"
+    },
+    {
+      "name": "SilkHelmetRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silk_helmet_recipe"
+    },
+    {
+      "name": "SilkChestplateRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silk_chestplate_recipe"
+    },
+    {
+      "name": "SilkLegsRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silk_legs_recipe"
+    },
+    {
+      "name": "SilkBootsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silk_boots_recipe"
     }
   ],
   "variable_elements": [],
