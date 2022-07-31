@@ -1,0 +1,89 @@
+{
+  "_fv": 28,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "silkboundhelmetitem",
+    "enableBody": true,
+    "textureBody": "silkboundchestbind",
+    "enableLeggings": true,
+    "textureLeggings": "silkboundlegbind",
+    "enableBoots": true,
+    "textureBoots": "silkboundfeetbind",
+    "onHelmetTick": {
+      "name": "SilkBindingHelmetBlindnessEvent"
+    },
+    "onBodyTick": {
+      "name": "SilkBindingBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "SilkBindingLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "SilkBindingLeggingsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:UnpleasantEquipment"
+    },
+    "armorTextureFile": "silkbinds_",
+    "helmetName": "Silk Bound Mask",
+    "bodyName": "Silk Bound Body",
+    "leggingsName": "Silk Bound Legs",
+    "bootsName": "Silk Bound Feet",
+    "helmetSpecialInfo": [
+      "Prevents you from seeing and taking off armor."
+    ],
+    "bodySpecialInfo": [
+      "Prevents you from attacking",
+      "mining and taking off armor."
+    ],
+    "leggingsSpecialInfo": [
+      "Prevents you from walking."
+    ],
+    "bootsSpecialInfo": [
+      "Prevents you from walking."
+    ],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 25,
+    "damageValueHelmet": 0,
+    "damageValueBody": 0,
+    "damageValueLeggings": 0,
+    "damageValueBoots": 0,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "block.cloth.break"
+    },
+    "repairItems": [
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Blocks.WEB"
+      },
+      {
+        "value": "Blocks.WOOL#0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Unpleasant Equipment",
+    "icon": {
+      "value": "Items.IRON_HELMET"
+    },
+    "showSearch": true
+  }
+}

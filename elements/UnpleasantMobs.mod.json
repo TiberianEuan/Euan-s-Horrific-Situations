@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Intimidating Mobs",
+    "icon": {
+      "value": "Items.SPIDER_EYE"
+    },
+    "showSearch": false
+  }
+}

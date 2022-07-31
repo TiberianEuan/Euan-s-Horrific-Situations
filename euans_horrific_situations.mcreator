@@ -1,0 +1,230 @@
+{
+  "mod_elements": [
+    {
+      "name": "UnpleasantEquipment",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unpleasant_equipment"
+    },
+    {
+      "name": "SilkBinding",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silk_binding",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "SilkBindingHelmetBlindnessEvent",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silk_binding_helmet_blindness_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SilkBindingBodyTickEvent",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silk_binding_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SilkBindingLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silk_binding_leggings_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BindingCurseForThoseWhoCantFreeThemselves",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "binding_curse_for_those_who_cant_free_themselves",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WebberTransparentWhenTrue",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "webber_transparent_when_true",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnpleasantMobs",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unpleasant_mobs"
+    },
+    {
+      "name": "WebberPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "webber_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Webber",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "webber"
+    },
+    {
+      "name": "WebberTryStealth",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "webber_try_stealth",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CarnivorousPlantBite",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carnivorous_plant_bite",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CarnivorousPlant",
+      "type": "plant",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carnivorous_plant"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabunpleasant_equipment": "Unpleasant Equipment",
+      "item.euans_horrific_situations.silk_binding_boots": "Silk Bound Feet",
+      "item.euans_horrific_situations.webber_spawn_egg": "Webber Spawn Egg",
+      "item.euans_horrific_situations.silk_binding_helmet": "Silk Bound Mask",
+      "death.attack.carnivoreplantbite": "%1$s was consumed by a carnivorous plant.",
+      "block.euans_horrific_situations.carnivorous_plant": "Carnivorous Plant",
+      "itemGroup.tabunpleasant_mobs": "Intimidating Mobs",
+      "item.euans_horrific_situations.silk_binding_chestplate": "Silk Bound Body",
+      "item.euans_horrific_situations.silk_binding_leggings": "Silk Bound Legs",
+      "entity.euans_horrific_situations.webber": "Webber"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "euans_horrific_situations",
+    "modName": "Euan\u0027s Horrific Situations",
+    "version": "1.0.0",
+    "author": "maste, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.euanshorrificsituations",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

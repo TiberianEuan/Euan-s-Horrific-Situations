@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "euans_horrific_situations:blocks/carnivorous_plant",
+    "particle": "euans_horrific_situations:blocks/carnivorous_plant"
+  }
+}
