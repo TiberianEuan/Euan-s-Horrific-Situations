@@ -14,6 +14,6 @@ import net.minecraft.world.entity.decoration.Motive;
 public class EuansHorrificSituationsModPaintings {
 	@SubscribeEvent
 	public static void registerMotives(RegistryEvent.Register<Motive> event) {
-		event.getRegistry().register(new Motive(64, 16).setRegistryName("peculiar_painting"));
+		event.getRegistry().register(new Motive(16, 16).setRegistryName("peculiar_painting"));
 	}
 }
